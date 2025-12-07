@@ -37,11 +37,13 @@
       class="only-light w-100"
       alt="{{ include.repository }}"
       src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      onerror="this.onerror=null; this.src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'; this.style.maxWidth='100px'; this.parentElement.innerHTML='<div style=\'padding:20px\'><img src=\'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png\' style=\'max-width:100px\'/><br/><strong>{{ include.repository }}</strong><br/><small>View on GitHub</small></div>';"
     >
     <img
       class="only-dark w-100"
       alt="{{ include.repository }}"
       src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      onerror="this.onerror=null; this.src='https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png'; this.style.maxWidth='100px'; this.parentElement.innerHTML='<div style=\'padding:20px\'><img src=\'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png\' style=\'max-width:100px;filter:invert(1)\'/><br/><strong>{{ include.repository }}</strong><br/><small>View on GitHub</small></div>';"
     >
   </a>
 </div>

@@ -2,96 +2,135 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Daniel Rossi
+    - name: Location
+      value: Modena, Italy
+    - name: Email
+      value: daniel.rossi@unimore.it
     - name: Languages
-      value: English, German
+      value: Italian (Native), English (B2), German (A1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Vision
+      institution: AImageLab, Università di Modena e Reggio Emilia, Modena, Italy
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Research focused on 3D scene and human reconstruction using NeRF and Gaussian Splatting
+        - Working on model compression and efficiency enhancement for neural networks targeting real-time inference on edge and battery-powered devices
+        - Current work involves emergency response and surveillance classification models optimized for low-power hardware (drones and UAVs)
+        - title: Passed courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - "Advanced Methodologies and Technologies for Neurophysiological Research – Grade B"
+            - "Machine Learning Applications in Trading and Portfolio Management – Grade A"
+            - "Explainable AI in the Neural Network Domain – Grade A"
+    - title: M.Sc. in Artificial Intelligence Engineering
+      institution: DIEF, Università di Modena e Reggio Emilia, Modena, Italy
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - "Focused on computer vision, IoT, smart robotics, reinforcement learning, and distributed AI"
+        - "Research internship at Toyota Motor Europe NV on transformer-based 3D human pose estimation"
+        - "Thesis: 3D Human Pose Estimation from RGB Images with Transformers and Deformable Attention"
+        - "Grade: 110/110 with Honors"
+    - title: B.Sc. in Computer Engineering
+      institution: DIEF, Università di Modena e Reggio Emilia, Modena, Italy
+      year: 2017 - 2021
+      description:
+        - "Additional coursework in Additive Manufacturing, 3D Printing, and Power Electronics Design"
+        - "Thesis: Introduction to the Concept of Car Sharing and Development of Subsystems for an Electric Vehicle"
+    - title: High School Diploma in Computer Science and Telecommunications
+      institution: I.I.S. Blaise Pascal, Reggio Emilia, Italy
+      year: 2012 - 2017
+      description:
+        - "Thesis: BrainForce – An End-to-End Device for Controlling an RC Car via Brain Waves"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD Researcher in Computer Vision
+      institution: AImageLab, Università di Modena e Reggio Emilia, Modena, Italy
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Research on 3D scene and human reconstruction using NeRF and Gaussian Splatting
+        - Model compression and efficiency enhancement for real-time inference on edge devices
+        - Emergency response and surveillance classification models for drones and UAVs
+    - title: Robotics Research Intern – Computer Vision
+      institution: Toyota Motor Europe, Zaventem, Belgium
+      year: Feb 2023 - Aug 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Designed a transformer-based model for 3D human pose estimation and temporal tracking
+        - Fine-tuned SOTA 2D hand pose networks using mixed datasets and re-annotated missing labels
+        - Developed a CNN-based ergonomics monitoring system with web dashboard for 3D pose analysis
+        - Contributed to RGB-based 3D human reconstruction and dataset creation via markerless capture
+        - Built an AI-integrated embedded traffic-light controller for production-line feedback
+    - title: Computer Vision & Firmware Engineer
+      institution: ProjectRED, Reggio Emilia, Italy
+      year: Sep 2022 - Sep 2024
       description:
+        - Implemented real-time object detection for robotic pick-and-place tasks (YOLOv5, ROS)
+        - Developed ArUco-based navigation for landmark detection and orientation control
+        - Built CAN bus firmware for STM32-based sensor network and environmental acquisition
+        - Led vision and firmware subteams with task planning and mentoring for new members
+    - title: Software & Firmware R&D Engineer
+      institution: WATER LINE S.R.L., Correggio, Italy
+      year: May 2021 - Sep 2021
+      description:
+        - Reverse-engineered STM32–ESP32 communication protocol via serial analysis
+        - Developed firmware in C/C++ for drink dispensers with glass-size inference from sensors
+        - Built C# WPF and PyQt5 desktop tools for production and maintenance systems
+        - Implemented JSON-over-Ethernet communication for IoT-ready embedded devices
+    - title: Software Engineer
+      institution: More Modena Racing Hybrid, Modena, Italy
+      year: Oct 2017 - Mar 2019
+      description:
+        - Developed telemetry GUI (Java), CAN bus communication, and battery safety systems for hybrid single-seater prototype
+    - title: IT Technician
+      institution: Unione Tresinaro Secchia, Reggio Emilia, Italy
+      year: May 2016 - Aug 2016
+      description:
+        - Provided hardware/software support and large-scale OS upgrades for municipal IT systems
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://arxiv.org/abs/2501.00000">TakuNet&#58; an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios</a>
+      year: Jan 2025
+      description: Daniel Rossi, Guido Borghi, Roberto Vezzani - IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)
+    - title: <a href="https://github.com/DanielRossi1/AutoDock">AutoDock-AI&#58; a Docker-based Framework Accelerating Artificial Intelligence Research</a>
+      year: Jan 2025
+      description: Daniel Rossi - GitHub (Software)
 
-- title: Honors and Awards
+- title: Schools & Workshops
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: International Computer Vision Summer School (ICVSS)
+      institution: University of Catania, Italy
+      year: Jul 2025
+      description:
+        - Selected participant attending advanced lectures on Computer Vision, 3D Scene Understanding, and Efficient Deep Learning
+        - Successfully passed the final examination
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C++, C, CUDA, Bash
+    - title: Libraries & Frameworks
       items:
-        - Description 1.
-        - Description 2.
+        - "PyTorch, TorchVision, NumPy, OpenCV, Lightning, ONNX, PIL, h5py"
+    - title: Tools & Platforms
+      items:
+        - "Docker, Git, Linux, ROS, TensorRT, Slurm"
+    - title: Hardware Platforms
+      items:
+        - "NVIDIA Jetson, Raspberry Pi, Hailo-8, MAX78000, STM32, Arduino"
 
-- title: Other Interests
+- title: YouTube & Content Creation
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Founder and Manager of the <a href="https://www.youtube.com/@Projecto">Projecto YouTube Channel</a> (since 2017)
+    - 27k+ subscribers, 4.4M+ views, 700+ technical videos
+    - Educational content on electronics, programming, deep learning, and robotics
+    - Currently developing an autonomous robotic platform with NVIDIA Jetson, LiDAR, global shutter and night-vision cameras

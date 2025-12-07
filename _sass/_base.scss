@@ -6,7 +6,7 @@
 
 p,
 h1,
-h2,
+h2:not(.category),
 h3,
 h4,
 h5,
@@ -14,7 +14,7 @@ h6,
 em,
 div,
 li,
-span,
+span:not(.emoji),
 strong {
   color: var(--global-text-color);
 }
@@ -172,9 +172,16 @@ ul.task-list input[type="checkbox"] {
 .card {
   background-color: var(--global-card-bg-color);
 
-  .card-img {
+  .card-img,
+  .card-img-top {
     width: 100%;
-    padding-top: 1.25rem;
+    object-fit: cover;
+    background-color: var(--global-card-bg-color);
+  }
+
+  .card-img-top {
+    padding-top: 0;
+    padding-left: 0;
   }
 
   .card-title {
@@ -703,11 +710,19 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-align: right;
+    color: var(--global-theme-color);
+  }
+
+  p.category-description {
+    color: var(--global-text-color);
+    opacity: 0.8;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
     text-align: right;
   }
 }

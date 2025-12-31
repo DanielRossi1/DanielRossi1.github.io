@@ -1,11 +1,11 @@
 metadata:
-  last_updated: '2025-12-12'
+  last_updated: '2025-12-31'
 papers:
-  '4_lApagAAAAJ:2osOgNQ5qMEC':
+  4_lApagAAAAJ:2osOgNQ5qMEC:
     citations: 2
     title: 'TakuNet: an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios'
-    year: 2025
-  '4_lApagAAAAJ:qjMakFHDy7sC':
+    year: '2025'
+  4_lApagAAAAJ:qjMakFHDy7sC:
     citations: 0
     title: 'TakuNet: Energy-Efficient Models for Real-Time Aerial Disaster Response and Monitoring on Edge Devices'
-    year: 2025
+    year: Unknown Year

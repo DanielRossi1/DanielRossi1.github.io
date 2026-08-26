@@ -1,11 +1,19 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-26'
 papers:
   4_lApagAAAAJ:2osOgNQ5qMEC:
-    citations: 9
+    citations: 10
     title: 'TakuNet: an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios'
     year: '2025'
+  4_lApagAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: 'BoltNet: An Ultra-Lightweight Convolutional Network for On-Device Plant Species Identification'
+    year: '2026'
   4_lApagAAAAJ:qjMakFHDy7sC:
     citations: 0
     title: 'TakuNet: Energy-Efficient Models for Real-Time Aerial Disaster Response and Monitoring on Edge Devices'
     year: Unknown Year
+  4_lApagAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Stima della Posa 3D a partire da Immagini RGB con Transformers e Deformable Attention
+    year: '2023'

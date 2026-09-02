@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-26'
+  last_updated: '2026-09-02'
 papers:
   4_lApagAAAAJ:2osOgNQ5qMEC:
-    citations: 10
+    citations: 11
     title: 'TakuNet: an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios'
     year: '2025'
   4_lApagAAAAJ:IjCSPb-OGe4C:
@@ -11,8 +11,8 @@ papers:
     year: '2026'
   4_lApagAAAAJ:qjMakFHDy7sC:
     citations: 0
-    title: 'TakuNet: Energy-Efficient Models for Real-Time Aerial Disaster Response and Monitoring on Edge Devices'
-    year: Unknown Year
+    title: 'TakuNet: Energy-efficient models for real-time aerial disaster response and monitoring on edge devices'
+    year: '2026'
   4_lApagAAAAJ:zYLM7Y9cAGgC:
     citations: 0
     title: Stima della Posa 3D a partire da Immagini RGB con Transformers e Deformable Attention

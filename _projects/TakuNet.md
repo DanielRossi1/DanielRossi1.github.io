@@ -3,7 +3,7 @@ layout: page
 title: TakuNet
 description: An Energy-Efficient CNN for Real-Time Inference on Embedded UAV Systems
 img: assets/img/projects/TakuNet/TakuNet_Architecture.png
-importance: 1
+importance: 3
 category: research
 related_publications: rossi2025takunet
 ---
@@ -29,15 +29,16 @@ The TakuNet architecture follows a modular design optimized for hardware acceler
 
 The network is composed of the following key components:
 
-*   **Stem Block**: The initial processing unit responsible for rapid spatial downsampling and preliminary feature extraction.
-*   **TakuBlock**: The core building block of the network. It utilizes **depth-wise separable convolutions** to drastically reduce the number of parameters and floating-point operations (FLOPs) compared to standard convolutions. Each block incorporates **skip connections** (residual learning) to facilitate gradient flow and prevent degradation during training.
-*   **DownSampler**: Specialized modules placed between stages to reduce feature map resolution efficiently.
+- **Stem Block**: The initial processing unit responsible for rapid spatial downsampling and preliminary feature extraction.
+- **TakuBlock**: The core building block of the network. It utilizes **depth-wise separable convolutions** to drastically reduce the number of parameters and floating-point operations (FLOPs) compared to standard convolutions. Each block incorporates **skip connections** (residual learning) to facilitate gradient flow and prevent degradation during training.
+- **DownSampler**: Specialized modules placed between stages to reduce feature map resolution efficiently.
 
 ### Model Configuration
 
 The specific configuration of TakuNet used in the publication is defined by the following hyperparameters:
-*   **Depths**: `[5, 5, 5, 4]` (Number of blocks in each of the 4 stages)
-*   **Widths**: `[40, 80, 160, 240]` (Number of channels in each stage)
+
+- **Depths**: `[5, 5, 5, 4]` (Number of blocks in each of the 4 stages)
+- **Widths**: `[40, 80, 160, 240]` (Number of channels in each stage)
 
 This configuration was empirically selected to maximize the accuracy-latency trade-off on embedded accelerators.
 
@@ -75,17 +76,17 @@ For deployment on edge devices (e.g., NVIDIA Jetson Orin Nano), the model suppor
 
 The project is implemented using **PyTorch Lightning**, ensuring code modularity, reproducibility, and scalable training.
 
-*   **Training Strategy**: The model is trained using the **RMSprop** optimizer coupled with a **StepLR** learning rate scheduler to ensure stable convergence.
-*   **Deployment Pipeline**: To achieve real-time performance on edge devices, the training pipeline includes export utilities for optimized inference engines:
-    *   **NVIDIA Jetson Orin Nano**: The model is converted to **TensorRT** engines, utilizing **FP16** precision to leverage the Tensor Cores on the Orin architecture.
-    *   **Raspberry Pi**: For CPU-bound edge devices, the model is exported to **ONNX** format and executed via **ONNX Runtime**.
+- **Training Strategy**: The model is trained using the **RMSprop** optimizer coupled with a **StepLR** learning rate scheduler to ensure stable convergence.
+- **Deployment Pipeline**: To achieve real-time performance on edge devices, the training pipeline includes export utilities for optimized inference engines:
+  - **NVIDIA Jetson Orin Nano**: The model is converted to **TensorRT** engines, utilizing **FP16** precision to leverage the Tensor Cores on the Orin architecture.
+  - **Raspberry Pi**: For CPU-bound edge devices, the model is exported to **ONNX** format and executed via **ONNX Runtime**.
 
 ## Experimental Results
 
 TakuNet was evaluated on the **AIDER** (Aerial Image Dataset for Emergency Response) and **AIDER-V2** datasets.
 
-*   **Inference Speed**: On the NVIDIA Jetson Orin Nano, TakuNet achieves an inference throughput of over **650 FPS** (Frames Per Second) in FP16 mode.
-*   **Efficiency**: The model demonstrates a superior balance of accuracy and computational cost compared to general-purpose lightweight backbones like MobileNetV3 and EfficientNet-Lite when applied to the specific domain of aerial emergency imagery.
+- **Inference Speed**: On the NVIDIA Jetson Orin Nano, TakuNet achieves an inference throughput of over **650 FPS** (Frames Per Second) in FP16 mode.
+- **Efficiency**: The model demonstrates a superior balance of accuracy and computational cost compared to general-purpose lightweight backbones like MobileNetV3 and EfficientNet-Lite when applied to the specific domain of aerial emergency imagery.
 
 ## Resources
 

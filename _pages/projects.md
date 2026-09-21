@@ -9,6 +9,8 @@ display_categories: [research, Master's, tools, educational]
 horizontal: true
 # Lista manuale dei progetti da mostrare (in ordine di visualizzazione)
 projects_to_show:
+  - TakuNetV2
+  - BoltNet
   - TakuNet
   - AutoDock
   - RL-Swarm
@@ -53,6 +55,7 @@ projects_to_show:
         {% assign filtered_projects = filtered_projects | push: project %}
       {% endif %}
     {% endfor %}
+    {% assign filtered_projects = filtered_projects | sort: "importance" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
     <div class="container">
@@ -79,6 +82,7 @@ projects_to_show:
         {% assign filtered_projects = filtered_projects | push: project %}
       {% endif %}
     {% endfor %}
+    {% assign filtered_projects = filtered_projects | sort: "importance" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
     <div class="container">

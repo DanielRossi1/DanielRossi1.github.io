@@ -26,15 +26,19 @@ related_publications: false
 The solution follows a standard data science workflow, optimized for the specific characteristics of spectral data.
 
 ### Data Preprocessing
+
 The raw mass spectrometry data consists of time-series intensity values for various mass-to-charge (m/z) ratios.
-*   **Standardization**: Applied Z-score normalization to handle varying signal intensities across different samples.
-*   **Dimensionality Reduction**: Utilized **Principal Component Analysis (PCA)** to reduce the feature space while retaining 95% of the variance, effectively filtering out sensor noise and focusing on the principal chemical signatures.
+
+- **Standardization**: Applied Z-score normalization to handle varying signal intensities across different samples.
+- **Dimensionality Reduction**: Utilized **Principal Component Analysis (PCA)** to reduce the feature space while retaining 95% of the variance, effectively filtering out sensor noise and focusing on the principal chemical signatures.
 
 ### Model Selection
+
 A variety of supervised learning algorithms were evaluated using **Grid Search Cross-Validation** to optimize hyperparameters.
-*   **Support Vector Machines (SVM)**: Effective for high-dimensional spaces.
-*   **Logistic Regression**: Used as a baseline for interpretability.
-*   **Random Forests**: Employed to capture non-linear relationships in the spectral data.
+
+- **Support Vector Machines (SVM)**: Effective for high-dimensional spaces.
+- **Logistic Regression**: Used as a baseline for interpretability.
+- **Random Forests**: Employed to capture non-linear relationships in the spectral data.
 
 ## Implementation Details
 
@@ -63,8 +67,8 @@ The final model demonstrated robust performance in distinguishing between sample
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     <div class="repo p-2 text-center">
-        <a href="https://github.com/DanielRossi1/MarsSpectrometry" class="btn btn-primary z-depth-1">
-            <i class="fab fa-github"></i> View Code
+        <a href="https://www.drivendata.org/competitions/93/nasa-mars-spectrometry/" class="btn btn-primary z-depth-1">
+            <i class="fas fa-trophy"></i> Competition Page
         </a>
     </div>
 </div>

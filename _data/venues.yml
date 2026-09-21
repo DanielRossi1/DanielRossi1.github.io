@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"WACVW":
+  url: https://openaccess.thecvf.com/WACV2025_workshops/V3SC
+  color: "#1f4e79"
+
+"ECCVW":
+  url: https://eccv.ecva.net/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IMAVIS":
+  url: https://www.sciencedirect.com/journal/image-and-vision-computing
+  color: "#1a7f5a"
 
-"Vision":
-  color: "#009f36"
+"Software":
+  color: "#5a5a5a"

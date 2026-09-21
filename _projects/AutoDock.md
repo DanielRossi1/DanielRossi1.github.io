@@ -28,9 +28,10 @@ The framework is built upon a modular architecture that decouples the developmen
 ### Automated Device Detection
 
 AutoDock incorporates a bash-based inference engine (`libraries/devices.sh`) that inspects the host's device tree and kernel modules to identify the hardware platform. Upon detection, it automatically:
-*   **Configures the Runtime**: Selects the appropriate container runtime (e.g., `nvidia-container-runtime` for Jetson) to enable GPU acceleration.
-*   **Mounts Peripherals**: Automatically maps hardware interfaces such as **GPIO**, **I2C**, **SPI**, and **USB** cameras into the container, granting isolated applications direct access to physical sensors.
-*   **Optimizes Resources**: Adjusts shared memory segments (`--shm-size`) and process privileges based on the detected capabilities.
+
+- **Configures the Runtime**: Selects the appropriate container runtime (e.g., `nvidia-container-runtime` for Jetson) to enable GPU acceleration.
+- **Mounts Peripherals**: Automatically maps hardware interfaces such as **GPIO**, **I2C**, **SPI**, and **USB** cameras into the container, granting isolated applications direct access to physical sensors.
+- **Optimizes Resources**: Adjusts shared memory segments (`--shm-size`) and process privileges based on the detected capabilities.
 
 ### Remote Development Integration
 
@@ -40,16 +41,16 @@ To support modern research workflows, AutoDock integrates seamlessly with **VSCo
 
 The core of AutoDock is a set of optimized Dockerfiles and shell scripts that handle the dependency graph for AI research.
 
-*   **Base Images**: Utilizes `nvidia/cuda` and `ubuntu` base images, layered with essential libraries for computer vision (OpenCV, FFmpeg) and deep learning (PyTorch, TensorFlow).
-*   **Cross-Platform Support**: Maintains specific Dockerfiles for different architectures (`Dockerfile.jetsonOrin`, `Dockerfile.raspberrypi`), ensuring that platform-specific libraries (like `jetpack` or `rpi.gpio`) are correctly installed.
-*   **User-Space Mapping**: Automatically maps the host user's UID/GID into the container, preventing file permission issues common in shared research environments.
+- **Base Images**: Utilizes `nvidia/cuda` and `ubuntu` base images, layered with essential libraries for computer vision (OpenCV, FFmpeg) and deep learning (PyTorch, TensorFlow).
+- **Cross-Platform Support**: Maintains specific Dockerfiles for different architectures (`Dockerfile.jetsonOrin`, `Dockerfile.raspberrypi`), ensuring that platform-specific libraries (like `jetpack` or `rpi.gpio`) are correctly installed.
+- **User-Space Mapping**: Automatically maps the host user's UID/GID into the container, preventing file permission issues common in shared research environments.
 
 ## Key Features
 
-*   **Hardware Abstraction**: Write code once, deploy on any supported embedded device without modification.
-*   **Zero-Config Setup**: Eliminates the need for manual installation of CUDA, cuDNN, and Python environments.
-*   **Peripheral Passthrough**: Native access to hardware accelerators and sensors within the isolated container.
-*   **Reproducibility**: Guarantees that experiments can be replicated exactly on different machines, addressing a major challenge in scientific research.
+- **Hardware Abstraction**: Write code once, deploy on any supported embedded device without modification.
+- **Zero-Config Setup**: Eliminates the need for manual installation of CUDA, cuDNN, and Python environments.
+- **Peripheral Passthrough**: Native access to hardware accelerators and sensors within the isolated container.
+- **Reproducibility**: Guarantees that experiments can be replicated exactly on different machines, addressing a major challenge in scientific research.
 
 ## Resources
 

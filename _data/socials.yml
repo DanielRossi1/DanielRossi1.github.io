@@ -9,13 +9,13 @@
 # arxiv_id: # your arXiv author ID
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
+# cv_pdf: /assets/pdf/CV_Daniel_Rossi.pdf # path to your CV PDF file (uncomment once the file is in assets/pdf/)
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: daniel.rossi@unimore.it # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-# github_username: # your GitHub user name
+github_username: DanielRossi1 # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
@@ -29,12 +29,12 @@ email: daniel.rossi@unimore.it # your email address
 linkedin_username: daniel-rossi-phd
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: # your ORCID ID
+orcid_id: 0009-0005-7774-6315 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Daniel-Rossi-12 # your profile on ResearchGate
 # rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: 4_lApagAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
@@ -48,7 +48,7 @@ scholar_userid: 4_lApagAAAAJ # your Google Scholar ID
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
+work_url: https://aimagelab.ing.unimore.it/ # work page URL
 # x_username: # your X handle
 youtube_id: ProjectoOfficial
 # zotero_username: # your zotero username

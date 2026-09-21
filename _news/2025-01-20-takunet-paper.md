@@ -6,7 +6,7 @@ related_posts: false
 title: "🎉 TakuNet Paper Accepted at WACVW 2025: Breaking the Speed Barrier in Drone Vision"
 ---
 
-:newspaper: **New Publication!** Our paper "[TakuNet: an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios](https://arxiv.org/abs/2501.00000)" has been accepted at **IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW) 2025**! 
+:newspaper: **New Publication!** Our paper "[TakuNet: an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios](https://arxiv.org/abs/2501.05880)" has been accepted at **IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW) 2025**!
 
 The work presents a lightweight CNN architecture optimized for real-time emergency response classification on battery-powered drones, achieving state-of-the-art efficiency on NVIDIA Jetson and Raspberry Pi.
 

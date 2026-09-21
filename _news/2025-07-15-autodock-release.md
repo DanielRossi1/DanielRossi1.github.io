@@ -3,13 +3,15 @@ layout: post
 date: 2025-07-15
 inline: false
 related_posts: false
+title: "AutoDock-AI released: reproducible AI environments on edge devices"
 ---
 
-:package: **New Open-Source Tool Released!** 
+:package: **New Open-Source Tool Released!**
 
-Launched **[AutoDock-AI](https://github.com/danielrossi1/AutoDock)**, a Docker-based framework for accelerating AI research on embedded edge devices. 
+Launched **[AutoDock-AI](https://github.com/danielrossi1/AutoDock)**, a Docker-based framework for accelerating AI research on embedded edge devices.
 
 AutoDock simplifies development workflows for NVIDIA Jetson, Raspberry Pi, and other edge platforms by providing:
+
 - Automatic hardware detection and optimization
 - Pre-configured deep learning environments (PyTorch, TensorFlow, TensorRT)
 - VSCode remote development integration

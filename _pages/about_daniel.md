@@ -1,7 +1,7 @@
-I am a final-year PhD Candidate in Artificial Intelligence at [AImageLab](https://aimagelab.ing.unimore.it/imagelab/) at the [University of Modena and Reggio Emilia](https://www.ingmo.unimore.it/it)
+I am a final-year PhD Candidate in Artificial Intelligence at [AImageLab](https://aimagelab.ing.unimore.it/imagelab/), [University of Modena and Reggio Emilia](https://www.ingmo.unimore.it/it), advised by Prof. Roberto Vezzani.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My work sits at the intersection of **Efficient Deep Learning** and **embedded systems**: designing ultra-lightweight convolutional architectures and measuring what they really cost once deployed on NPUs, embedded GPUs and microcontrollers. Application domains range from aerial disaster response and surveillance to on-device fine-grained recognition and monocular depth estimation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before the PhD I obtained an M.Sc. in Artificial Intelligence Engineering _cum laude_ (110/110) and spent six months as a research intern at [Toyota Motor Europe](https://www.toyota-europe.com/) in Belgium, working on transformer-based 3D human pose estimation, NeRF and Gaussian Splatting.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You can reach me at <daniel.rossi@unimore.it>, or browse my [publications]({{ '/publications/' | relative_url }}) and [projects]({{ '/projects/' | relative_url }}).

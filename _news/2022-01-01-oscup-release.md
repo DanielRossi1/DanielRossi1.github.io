@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Published OSCUP protocol on Hackster.io - Open Source Custom UART Protocol for ESP32 🔌
+Published the OSCUP protocol on Hackster.io, an Open Source Custom UART Protocol for ESP32 🔌

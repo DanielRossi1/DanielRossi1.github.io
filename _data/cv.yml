@@ -22,9 +22,9 @@
         - Current work involves emergency response and surveillance classification models optimized for low-power hardware (drones and UAVs)
         - title: Passed courses
           contents:
-            - "Advanced Methodologies and Technologies for Neurophysiological Research – Grade B"
-            - "Machine Learning Applications in Trading and Portfolio Management – Grade A"
-            - "Explainable AI in the Neural Network Domain – Grade A"
+            - "Advanced Methodologies and Technologies for Neurophysiological Research (Grade B)"
+            - "Machine Learning Applications in Trading and Portfolio Management (Grade A)"
+            - "Explainable AI in the Neural Network Domain (Grade A)"
     - title: M.Sc. in Artificial Intelligence Engineering
       institution: DIEF, Università di Modena e Reggio Emilia, Modena, Italy
       year: 2021 - 2023
@@ -43,7 +43,7 @@
       institution: I.I.S. Blaise Pascal, Reggio Emilia, Italy
       year: 2012 - 2017
       description:
-        - "Thesis: BrainForce – An End-to-End Device for Controlling an RC Car via Brain Waves"
+        - "Thesis: BrainForce, an End-to-End Device for Controlling an RC Car via Brain Waves"
 
 - title: Experience
   type: time_table
@@ -55,7 +55,7 @@
         - Research on 3D scene and human reconstruction using NeRF and Gaussian Splatting
         - Model compression and efficiency enhancement for real-time inference on edge devices
         - Emergency response and surveillance classification models for drones and UAVs
-    - title: Robotics Research Intern – Computer Vision
+    - title: Robotics Research Intern in Computer Vision
       institution: Toyota Motor Europe, Zaventem, Belgium
       year: Feb 2023 - Aug 2023
       description:
@@ -76,7 +76,7 @@
       institution: WATER LINE S.R.L., Correggio, Italy
       year: May 2021 - Sep 2021
       description:
-        - Reverse-engineered STM32–ESP32 communication protocol via serial analysis
+        - Reverse-engineered the STM32 to ESP32 communication protocol via serial analysis
         - Developed firmware in C/C++ for drink dispensers with glass-size inference from sensors
         - Built C# WPF and PyQt5 desktop tools for production and maintenance systems
         - Implemented JSON-over-Ethernet communication for IoT-ready embedded devices
@@ -94,12 +94,18 @@
 - title: Publications
   type: time_table
   contents:
-    - title: <a href="https://arxiv.org/abs/2501.00000">TakuNet&#58; an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios</a>
+    - title: <a href="https://doi.org/10.1016/j.imavis.2026.106151">TakuNet&#58; Energy-Efficient Models for Real-Time Aerial Disaster Response and Monitoring on Edge Devices</a>
+      year: 2026
+      description: Daniel Rossi, Gianluca Filippini, Andrea Torlai, Guido Borghi, Roberto Vezzani. Image and Vision Computing, vol. 175, art. 106151 (Elsevier)
+    - title: <a href="https://arxiv.org/abs/2608.11844">BoltNet&#58; An Ultra-Lightweight Convolutional Network for On-Device Plant Species Identification</a>
+      year: 2026
+      description: Daniel Rossi, Guido Borghi, Roberto Vezzani. CVPPA Workshop at the European Conference on Computer Vision (ECCV)
+    - title: <a href="https://arxiv.org/abs/2501.05880">TakuNet&#58; an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios</a>
       year: Jan 2025
-      description: Daniel Rossi, Guido Borghi, Roberto Vezzani - IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)
+      description: Daniel Rossi, Guido Borghi, Roberto Vezzani. IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)
     - title: <a href="https://github.com/DanielRossi1/AutoDock">AutoDock-AI&#58; a Docker-based Framework Accelerating Artificial Intelligence Research</a>
       year: Jan 2025
-      description: Daniel Rossi - GitHub (Software)
+      description: Daniel Rossi. GitHub (Software)
 
 - title: Schools & Workshops
   type: time_table
@@ -111,26 +117,60 @@
         - Selected participant attending advanced lectures on Computer Vision, 3D Scene Understanding, and Efficient Deep Learning
         - Successfully passed the final examination
 
+- title: Teaching & Dissemination
+  type: time_table
+  contents:
+    - title: Seminar &ndash; STM32 Microcontrollers and AI Deployment with X-CUBE-AI
+      institution: Università di Modena e Reggio Emilia, Modena, Italy
+      year: 2024
+      description:
+        - Introduction to the STM32 ecosystem, HAL programming (GPIO, SPI, EXTI, DMA) and development toolchains
+        - ONNX model conversion, 8-bit quantization and on-MCU inference with X-CUBE-AI
+
+- title: Selected Open-Source Software
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/DanielRossi1/AutoDock">AutoDock</a>
+      year: 2025 - Present
+      description:
+        - Docker-based framework that auto-detects the host platform (Jetson, Raspberry Pi, x86) and provisions reproducible AI research environments
+    - title: <a href="https://github.com/DanielRossi1/EdgePowerMeter">EdgePowerMeter</a>
+      year: 2026
+      description:
+        - ESP32-C3 + INA226 probe and PySide6 desktop app measuring power draw of edge devices without voltage throttling, reporting J/inference and FPS/W
+    - title: <a href="https://github.com/DanielRossi1/TakuNet">TakuNet</a> / <a href="https://github.com/DanielRossi1/TakuNetV2">TakuNetV2</a>
+      year: 2025 - 2026
+      description:
+        - Reference implementations and pre-trained models for the WACVW 2025 paper and its Image and Vision Computing journal extension
+    - title: <a href="https://codeberg.org/danielrossi/BoltNet">BoltNet</a>
+      year: 2026
+      description:
+        - Reference implementation, pre-trained checkpoints and embedded inference scripts for the CVPPA @ ECCV 2026 paper
+    - title: <a href="https://github.com/DanielRossi1/OpenNPU">OpenNPU</a>
+      year: 2026
+      description:
+        - From-scratch educational build of a Neural Processing Unit on FPGA (Verilog), documenting the path from systolic array to compiled inference
+
 - title: Technical Skills
   type: nested_list
   contents:
     - title: Programming Languages
       items:
-        - Python, C++, C, CUDA, Bash
+        - Python, C++, C, CUDA, Verilog, Bash
     - title: Libraries & Frameworks
       items:
-        - "PyTorch, TorchVision, NumPy, OpenCV, Lightning, ONNX, PIL, h5py"
+        - "PyTorch, TorchVision, NumPy, OpenCV, Lightning, ONNX, PySide6/Qt, PIL, h5py"
     - title: Tools & Platforms
       items:
-        - "Docker, Git, Linux, ROS, TensorRT, Slurm"
+        - "Docker, Git, Linux, ROS, TensorRT, Hailo DataFlow Compiler, X-CUBE-AI, Slurm"
     - title: Hardware Platforms
       items:
-        - "NVIDIA Jetson, Raspberry Pi, Hailo-8, MAX78000, STM32, Arduino"
+        - "NVIDIA Jetson (Nano, Orin), Raspberry Pi, Hailo-8, MAX78000, ESP32, STM32, Arduino"
 
 - title: YouTube & Content Creation
   type: list
   contents:
-    - Founder and Manager of the <a href="https://www.youtube.com/@Projecto">Projecto YouTube Channel</a> (since 2017)
+    - Founder and Manager of the <a href="https://www.youtube.com/@ProjectoOfficial">Projecto YouTube Channel</a> (since 2017)
     - 27k+ subscribers, 4.4M+ views, 700+ technical videos
     - Educational content on electronics, programming, deep learning, and robotics
     - Currently developing an autonomous robotic platform with NVIDIA Jetson, LiDAR, global shutter and night-vision cameras

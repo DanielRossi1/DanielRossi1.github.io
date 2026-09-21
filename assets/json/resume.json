@@ -36,17 +36,28 @@
       "startDate": "2023-11-01",
       "endDate": "Present",
       "summary": "Research on 3D scene and human reconstruction using NeRF and Gaussian Splatting. Model compression and efficiency enhancement for real-time inference on edge devices. Emergency response and surveillance classification models for drones and UAVs.",
-      "highlights": ["Efficient Deep Learning", "CNN Architecture Design", "Model Compression & Quantization", "AI Deployment on Edge Devices", "3D Human and Scene Reconstruction"]
+      "highlights": [
+        "Efficient Deep Learning",
+        "CNN Architecture Design",
+        "Model Compression & Quantization",
+        "AI Deployment on Edge Devices",
+        "3D Human and Scene Reconstruction"
+      ]
     },
     {
       "name": "Toyota Motor Europe",
       "location": "Brussels, Belgium",
-      "position": "Robotics Research Intern – Computer Vision",
+      "position": "Robotics Research Intern in Computer Vision",
       "url": "https://www.toyota-europe.com/",
       "startDate": "2023-02-01",
       "endDate": "2023-08-01",
       "summary": "Designed transformer-based models for 3D human pose estimation and temporal tracking. Developed CNN-based ergonomics monitoring system with web dashboard.",
-      "highlights": ["2D Hand Pose Estimation", "CNNs for 3D Human Pose Estimation", "Deep Human Ergonomics Estimation and Analysis", "Transformers for 3D Human Pose Estimation and Tracking"]
+      "highlights": [
+        "2D Hand Pose Estimation",
+        "CNNs for 3D Human Pose Estimation",
+        "Deep Human Ergonomics Estimation and Analysis",
+        "Transformers for 3D Human Pose Estimation and Tracking"
+      ]
     },
     {
       "name": "ProjectRED",
@@ -80,11 +91,12 @@
       "startDate": "2023-11-01",
       "endDate": "Present",
       "score": "",
-      "courses": ["Advanced Methodologies and Technologies for Neurophysiological Research", 
-                  "Machine Learning Applications in Trading and Portfolio Management", 
-                  "Explainable AI in the Neural Network Domain",
-                  "Computer Vision for Spatial Intelligence (ICVSS 2025)"
-    ]
+      "courses": [
+        "Advanced Methodologies and Technologies for Neurophysiological Research",
+        "Machine Learning Applications in Trading and Portfolio Management",
+        "Explainable AI in the Neural Network Domain",
+        "Computer Vision for Spatial Intelligence (ICVSS 2025)"
+      ]
     },
     {
       "institution": "University of Modena and Reggio Emilia",
@@ -95,7 +107,14 @@
       "startDate": "2021-09-15",
       "endDate": "2023-10-19",
       "grade": "110/110 with Honors",
-      "courses": ["Computer Vision", "IoT & 3D Intelligent Systems", "Smart Robotics", "Reinforcement Learning", "Distributed AI", "Power Electronics"]
+      "courses": [
+        "Computer Vision",
+        "IoT & 3D Intelligent Systems",
+        "Smart Robotics",
+        "Reinforcement Learning",
+        "Distributed AI",
+        "Power Electronics"
+      ]
     },
     {
       "institution": "University of Modena and Reggio Emilia",
@@ -106,7 +125,14 @@
       "startDate": "2017-09-15",
       "endDate": "2021-04-15",
       "score": "",
-      "courses": ["Computer Architecture", "Calculus I & II, Multivariable Calculus", "Data Structures and Algorithms", "Operating Systems", "Telecommunications", "Digital Electronics"]
+      "courses": [
+        "Computer Architecture",
+        "Calculus I & II, Multivariable Calculus",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Telecommunications",
+        "Digital Electronics"
+      ]
     }
   ],
   "awards": [
@@ -121,6 +147,20 @@
   ],
   "certificates": [],
   "publications": [
+    {
+      "name": "TakuNet: Energy-Efficient Models for Real-Time Aerial Disaster Response and Monitoring on Edge Devices",
+      "publisher": "Image and Vision Computing, vol. 175, art. 106151 (Elsevier)",
+      "releaseDate": "2026-08-25",
+      "url": "https://doi.org/10.1016/j.imavis.2026.106151",
+      "summary": "Journal extension of the WACVW 2025 paper, with Gianluca Filippini, Andrea Torlai, Guido Borghi and Roberto Vezzani. Introduces TakuNetV2, a redesign that restores cross-channel mixing inside the blocks, and measures the family on five embedded platforms, from CPUs to the Hailo-8 NPU."
+    },
+    {
+      "name": "BoltNet: An Ultra-Lightweight Convolutional Network for On-Device Plant Species Identification",
+      "publisher": "CVPPA Workshop at the European Conference on Computer Vision (ECCV)",
+      "releaseDate": "2026-08-12",
+      "url": "https://arxiv.org/abs/2608.11844",
+      "summary": "0.682 F1 with 341K parameters (1.37 MB) on Pl@ntNet-300K, the best score of any model under 2 MB, and the highest frames per second per watt on both the Hailo-8 NPU and the Jetson Orin Nano."
+    },
     {
       "name": "TakuNet: an Energy-Efficient CNN for Real-Time Inference on Embedded UAV systems in Emergency Response Scenarios",
       "publisher": "IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)",
@@ -141,49 +181,25 @@
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C++",
-        "C",
-        "CUDA",
-        "Bash"
-      ]
+      "keywords": ["Python", "C++", "C", "CUDA", "Verilog", "Bash"]
     },
     {
       "name": "AI/ML Frameworks",
       "level": "Master",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "TorchVision",
-        "Lightning",
-        "ONNX",
-        "TensorRT"
-      ]
+      "keywords": ["PyTorch", "TorchVision", "Lightning", "ONNX", "TensorRT"]
     },
     {
       "name": "Tools & Platforms",
       "level": "Master",
       "icon": "fa-solid fa-tools",
-      "keywords": [
-        "Docker",
-        "Git",
-        "Linux",
-        "ROS",
-        "Slurm"
-      ]
+      "keywords": ["Docker", "Git", "Linux", "ROS", "Slurm", "Hailo DataFlow Compiler", "X-CUBE-AI"]
     },
     {
       "name": "Hardware",
       "level": "Expert",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "NVIDIA Jetson",
-        "Raspberry Pi",
-        "Hailo-8",
-        "STM32",
-        "Arduino"
-      ]
+      "keywords": ["NVIDIA Jetson", "Raspberry Pi", "Hailo-8", "MAX78000", "ESP32", "STM32", "Arduino"]
     }
   ],
   "languages": [
@@ -212,28 +228,45 @@
     {
       "name": "Computer Vision",
       "icon": "fa-solid fa-eye",
-      "keywords": [
-        "Edge AI",
-        "3D Computer Vision",
-        "Architecture Design",
-        "Model Compression & Quantization",
-        ""
-      ]
+      "keywords": ["Edge AI", "3D Computer Vision", "Architecture Design", "Model Compression & Quantization"]
     },
     {
       "name": "Embedded AI",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "UAV Systems",
-        "Microcontrollers",
-        "Linux-based Systems",
-        "Neural Processing Units (NPUs)",
-        "Graphics Processing Units (GPUs)"
-      ]
+      "keywords": ["UAV Systems", "Microcontrollers", "Linux-based Systems", "Neural Processing Units (NPUs)", "Graphics Processing Units (GPUs)"]
     }
   ],
   "references": [],
   "projects": [
+    {
+      "name": "BoltNet",
+      "summary": "Ultra-lightweight fully convolutional network for fine-grained, high-cardinality classification on constrained hardware. Two parameter-free rearrangements trade channels for spatial resolution.",
+      "highlights": ["CVPPA at ECCV 2026", "341K parameters, 1.37 MB", "Best F1 under 2 MB on Pl@ntNet-300K", "2,354 FPS/W on Hailo-8"],
+      "startDate": "2026-01-15",
+      "endDate": "2026-08-25",
+      "url": "https://codeberg.org/danielrossi/BoltNet"
+    },
+    {
+      "name": "TakuNetV2",
+      "summary": "Journal extension of TakuNet, a family of ultra-lightweight networks for real-time aerial disaster response under 100K parameters, benchmarked on five embedded platforms.",
+      "highlights": [
+        "Image and Vision Computing 2026",
+        "0.959 F1 on AIDERv2, 0.838 on CLRS",
+        "560 FPS on Jetson Orin Nano",
+        "Evaluated on the Astrial Hailo-8 board"
+      ],
+      "startDate": "2025-01-20",
+      "endDate": "2026-08-25",
+      "url": "https://github.com/DanielRossi1/TakuNetV2"
+    },
+    {
+      "name": "OpenNPU",
+      "summary": "From-scratch educational build of a Neural Processing Unit on FPGA, documenting the path from systolic array to compiled inference.",
+      "highlights": ["Verilog RTL", "Systolic array", "Educational, built from zero"],
+      "startDate": "2026-07-04",
+      "endDate": "",
+      "url": "https://github.com/DanielRossi1/OpenNPU"
+    },
     {
       "name": "EdgePowerMeter",
       "summary": "High-precision power monitoring system for edge AI devices with real-time visualization and analysis tools.",
@@ -269,10 +302,15 @@
     {
       "name": "Multi-Vision System for Autonomous Driving",
       "summary": "Computer Vision Framework for Vehicle Detection and Tracking with YOLOv7 and Kalman Filters, Lane Assistant and Traffic Sign Recognition.",
-      "highlights": ["YOLOv7 Training on BDD100K (5xRTX3090 Grant)", "Kalman Filters tracking", "Computer Vision algorithms", "Inference on Jetson Nano (OpenCV CUDA)"],
+      "highlights": [
+        "YOLOv7 Training on BDD100K (5xRTX3090 Grant)",
+        "Kalman Filters tracking",
+        "Computer Vision algorithms",
+        "Inference on Jetson Nano (OpenCV CUDA)"
+      ],
       "startDate": "2023-03-10",
       "endDate": "2022-10-28",
-      "url": "https://github.com/projectoofficial/RL-swarms"
+      "url": "https://github.com/DanielRossi1/ComputerVisionProject"
     }
   ]
 }

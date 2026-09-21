@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed collaboration with More Modena Racing - Formula SAE team 🏁
+Completed collaboration with More Modena Racing, the Formula SAE team 🏁

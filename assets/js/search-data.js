@@ -51,8 +51,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "news-published-brainforce-project-on-hackster-io-bci-system-for-rc-car-control-via-brain-waves",
-          title: 'Published BrainForce project on Hackster.io - BCI system for RC car control via...',
+        },{id: "news-published-the-brainforce-project-on-hackster-io-a-bci-system-for-rc-car-control-via-brain-waves",
+          title: 'Published the BrainForce project on Hackster.io, a BCI system for RC car control...',
           description: "",
           section: "News",},{id: "news-graduated-from-high-school-with-thesis-on-brainforce-bci-system",
           title: 'Graduated from High School with thesis on BrainForce BCI system 🎓',
@@ -60,8 +60,8 @@ ninja.data = [{
           section: "News",},{id: "news-started-collaboration-with-more-modena-racing-as-electronics-amp-amp-telemetry-engineer-️",
           title: 'Started collaboration with More Modena Racing as Electronics &amp;amp;amp; Telemetry Engineer 🏎️',
           description: "",
-          section: "News",},{id: "news-completed-collaboration-with-more-modena-racing-formula-sae-team",
-          title: 'Completed collaboration with More Modena Racing - Formula SAE team 🏁',
+          section: "News",},{id: "news-completed-collaboration-with-more-modena-racing-the-formula-sae-team",
+          title: 'Completed collaboration with More Modena Racing, the Formula SAE team 🏁',
           description: "",
           section: "News",},{id: "news-graduated-b-sc-in-computer-engineering",
           title: 'Graduated B.Sc. in Computer Engineering 🎓',
@@ -69,8 +69,8 @@ ninja.data = [{
           section: "News",},{id: "news-ended-working-at-water-line-s-r-l-as-software-amp-amp-firmware-r-amp-amp-d-engineer",
           title: 'Ended working at WATER LINE S.R.L. as Software &amp;amp;amp; Firmware R&amp;amp;amp;D Engineer 💻...',
           description: "",
-          section: "News",},{id: "news-published-oscup-protocol-on-hackster-io-open-source-custom-uart-protocol-for-esp32",
-          title: 'Published OSCUP protocol on Hackster.io - Open Source Custom UART Protocol for ESP32...',
+          section: "News",},{id: "news-published-the-oscup-protocol-on-hackster-io-an-open-source-custom-uart-protocol-for-esp32",
+          title: 'Published the OSCUP protocol on Hackster.io, an Open Source Custom UART Protocol for...',
           description: "",
           section: "News",},{id: "news-started-collaboration-with-projectred-as-computer-vision-amp-amp-firmware-engineer",
           title: 'Started collaboration with ProjectRED as Computer Vision &amp;amp;amp; Firmware Engineer 🤖',
@@ -104,19 +104,42 @@ ninja.data = [{
             },},{id: "news-selected-to-attend-the-international-computer-vision-summer-school-icvss-2025-in-catania",
           title: '🎉 Selected to attend the International Computer Vision Summer School (ICVSS) 2025 in...',
           description: "",
-          section: "News",},{id: "news-autodock-release",
-          title: 'Autodock Release',
+          section: "News",},{id: "news-autodock-ai-released-reproducible-ai-environments-on-edge-devices",
+          title: 'AutoDock-AI released: reproducible AI environments on edge devices',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-07-15-autodock-release.html";
-            },},{id: "news-released-takunet-source-code-and-pre-trained-models-on-github-51-stars-star",
-          title: 'Released TakuNet source code and pre-trained models on GitHub - 51 stars! :star:...',
+            },},{id: "news-released-takunet-source-code-and-pre-trained-models-on-github-now-at-50-stars-star",
+          title: 'Released TakuNet source code and pre-trained models on GitHub, now at 50+ stars!...',
           description: "",
-          section: "News",},{id: "projects-autodock",
+          section: "News",},{id: "news-released-opennpu-a-from-scratch-educational-build-of-a-neural-processing-unit-on-fpga-microscope",
+          title: 'Released OpenNPU, a from-scratch educational build of a Neural Processing Unit on FPGA...',
+          description: "",
+          section: "News",},{id: "news-edgepowermeter-measuring-real-edge-ai-power-draw",
+          title: 'EdgePowerMeter: measuring real edge-AI power draw',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-07-22-edgepowermeter-release.html";
+            },},{id: "news-takunet-goes-journal-image-and-vision-computing",
+          title: 'TakuNet goes journal: Image and Vision Computing',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-25-takunet-journal.html";
+            },},{id: "news-boltnet-accepted-at-cvppa-eccv-2026",
+          title: 'BoltNet accepted at CVPPA @ ECCV 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-08-26-boltnet-paper.html";
+            },},{id: "projects-autodock",
           title: 'AutoDock',
           description: "A Docker-based Framework for Accelerating AI Research on Heterogeneous Embedded Systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AutoDock.html";
+            },},{id: "projects-boltnet",
+          title: 'BoltNet',
+          description: "An Ultra-Lightweight Convolutional Network for On-Device Plant Species Identification",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/BoltNet.html";
             },},{id: "projects-brainforce",
           title: 'BrainForce',
           description: "A Wireless Brain-Computer Interface (BCI) for Assistive Device Control",
@@ -162,19 +185,24 @@ ninja.data = [{
           description: "An Energy-Efficient CNN for Real-Time Inference on Embedded UAV Systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TakuNet.html";
+            },},{id: "projects-takunetv2",
+          title: 'TakuNetV2',
+          description: "Energy-Efficient Models for Real-Time Aerial Disaster Response and Monitoring on Edge Devices",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TakuNetV2.html";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%64%61%6E%69%65%6C.%72%6F%73%73%69@%75%6E%69%6D%6F%72%65.%69%74", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/DanielRossi1", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -184,11 +212,32 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/daniel-rossi-phd", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0005-7774-6315", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Daniel-Rossi-12/", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=4_lApagAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://aimagelab.ing.unimore.it/", "_blank");
         },
       },{
         id: 'social-youtube',
